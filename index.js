@@ -1,24 +1,44 @@
-const operator = prompt('Enter operator ( either +, -, * or / ): ');
-
-// take the operand input
-const number1 = parseFloat(prompt('Enter first number: '));
-const number2 = parseFloat(prompt('Enter second number: '));
-
-let result;
-
-// using if...else if... else
-if (operator == '+') {
-    result = number1 + number2;
+let currentMonth = new Date().getMonth()
+var month = ""
+switch (currentMonth) {
+    case 0:
+        month = "january"
+        break;
+    case 1:
+        month = "February"
+        break;
+    case 2:
+        month = "March"
+        break;
+    case 3:
+        month = "April"
+        break;
+    case 4:
+        month = "May"
+        break;
+    case 5:
+        month = "June"
+        break;
+    case 6:
+        month = "july"
+        break;
+    case 7:
+        month = "August"
+        break;
+    case 8:
+        month = "September"
+        break;
+    case 9:
+        month = "Octomber"
+        break;
+    case 10:
+        month = "November"
+        break;
+    case 11:
+        month = "December"
+        break;
+    default:
+        break;
 }
-else if (operator == '-') {
-    result = number1 - number2;
-}
-else if (operator == '*') {
-    result = number1 * number2;
-}
-else {
-    result = number1 / number2;
-}
+console.log(month)
 
-// display the result
-console.log(`${number2} ${operator} ${number1} = ${result}`);
