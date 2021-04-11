@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>SampleProj by Rupsa Sarkar</name>
+	<name>SampleProj by capgemini</name>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
-	</buildSpec>
+	</buildSpecs>
 	<natures>
 	</natures>
 </projectDescription>
